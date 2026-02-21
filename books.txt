@@ -1,0 +1,30 @@
+1|C++ Programming|Bjarne Stroustrup|5
+2|Advanced C++|Herbert Schildt|3
+3|Mastering C++|Stanley Lippman|6
+4|Data Structures|Mark Weiss|3
+5|Algorithms Unlocked|Thomas Cormen|4
+6|Operating Systems|Abraham Silberschatz|2
+7|Database System Concepts|Henry Korth|4
+8|MySQL Cookbook|Paul DuBois|5
+9|Computer Networks|Andrew Tanenbaum|6
+10|Networking All-in-One|Doug Lowe|2
+11|Python Crash Course|Eric Matthes|7
+12|Automate the Boring Stuff with Python|Al Sweigart|7
+13|Let Us C|Yashwant Kanetkar|10
+14|Programming in ANSI C|E. Balagurusamy|5
+15|Artificial Intelligence|Stuart Russell|1
+16|Deep Learning|Ian Goodfellow|2
+17|Machine Learning|Tom Mitchell|4
+18|Introduction to Algorithms|Cormen|3
+19|Clean Code|Robert C. Martin|2
+20|Design Patterns|Erich Gamma|4
+21|Modern Compiler Design|Dick Grune|2
+22|Software Engineering|Ian Sommerville|6
+23|Computer Organization|Carl Hamacher|3
+24|Embedded Systems|Frank Vahid|5
+25|Programming Pearls|Jon Bentley|3
+26|Java: The Complete Reference|Herbert Schildt|8
+27|C Programming Absolute Beginner’s Guide|Greg Perry|5
+28|Hands-On Machine Learning|Aurélien Géron|4
+29|C++ Primer|Stanley Lippman|5
+30|Operating System Concepts Essentials|Galvin|2
