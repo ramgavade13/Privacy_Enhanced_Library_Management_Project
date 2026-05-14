@@ -1,84 +1,93 @@
-Privacy-Enhanced Library Management System with Encrypted Login
-------------------------------------------------------------------
-Project Name  : LMS_APP - Library Management System
-Developer     : Ram Gavade
-College       : VIT Pune
-Branch        : Computer Engineering (Second Year)
-------------------------------------------------------------------
+╔══════════════════════════════════════════════════════════════╗
+║        📚 LMS_APP - Library Management System               ║
+║           Privacy-Enhanced with Encrypted Login             ║
+╚══════════════════════════════════════════════════════════════╝
 
-What is included:
-- main.cpp                : Full C++ source code (single-file)
-- users.txt               : (auto-created) stores registered users
-                            as username|passwordHash
-- books.txt               : (auto-created) stores books as
-                            id|title|author|isIssued
-- Project_Report.pdf      : Project report with problem statement,
-                            flow, methodology, and instructions
-- README.txt              : This file with instructions to
-                            compile/run
-- flutter_application_1/  : Flutter Mobile App (Frontend)
-- backend/                : Flask REST API (Backend)
-------------------------------------------------------------------
+👨‍💻 Developer  : Ram Gavade
+🎓 College    : Vishwakarma Institute of Technology, Pune
+🌿 Branch     : Computer Engineering (Second Year)
+🔗 GitHub     : https://github.com/ramgavade13
 
-Tech Stack:
-- Frontend  : Flutter (Mobile App)
-- Backend   : Flask (Python REST API)
-- Database  : MySQL
-- C++ App   : Console-based LMS with password hashing
-------------------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-User Roles:
-- Admin   : Books add/manage करतो
-- Teacher : Books issue/return करतो
-- Student : Books search/issue/return करतो
-------------------------------------------------------------------
+📁 WHAT IS INCLUDED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 📄 main.cpp                 → Full C++ source code (single-file)
+ 👥 users.txt                → (auto-created) username|passwordHash
+ 📚 books.txt                → (auto-created) id|title|author|isIssued
+ 📑 Project_Report.pdf       → Problem statement, flow, methodology
+ 📖 README.txt               → Instructions to compile/run
+ 📱 flutter_application_1/   → Flutter Mobile App (Frontend)
+ ⚙️  backend/                 → Flask REST API (Backend)
 
-Features:
-- Signup and Login with JWT Authentication
-- Role-based Dashboard (Admin/Teacher/Student)
-- Add / View / Search Books
-- Issue and Return Books
-- Fine System (Rs.10 per day late fee)
-- Password Hashing (salted std::hash)
-- Auto-creates users.txt and books.txt on first run
-- Sample books added automatically if books.txt is missing
-------------------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-How to Run C++ App:
-  Step 1: Open terminal in project folder
-  Step 2: Compile using g++
-          g++ main.cpp -o lms_app
-  Step 3: Run
-          ./lms_app  (Linux/Mac)
-          lms_app.exe  (Windows)
-------------------------------------------------------------------
+🛠️  TECH STACK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 📱 Frontend   →  Flutter (Mobile App)
+ 🐍 Backend    →  Flask (Python REST API)
+ 🗄️  Database   →  MySQL
+ 💻 Console    →  C++ with Password Hashing
 
-How to Run Flutter App:
-  Step 1: cd flutter_application_1
-  Step 2: flutter pub get
-  Step 3: flutter run
-------------------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-How to Run Flask Backend:
-  Step 1: cd backend
-  Step 2: pip install -r requirements.txt
-  Step 3: python app.py
-------------------------------------------------------------------
+👥 USER ROLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🔴 Admin    →  Books add / manage / catalog control
+ 🟡 Teacher  →  Books issue / return / search
+ 🟢 Student  →  Books search / issue / return
 
-Notes:
-- The project uses portable salted std::hash for password
-  hashing (educational purpose).
-- On first run, sample books are added automatically if
-  books.txt is missing.
-- users.txt and books.txt are created/updated in the same
-  folder, keep them together with the executable.
-- For stronger hashing (SHA-256), replace hash function
-  with OpenSSL or a library implementation.
-- If you want code split into multiple files
-  (user.h/cpp, library.h/cpp), ask and it will be provided.
-------------------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Contact:
-- GitHub  : https://github.com/ramgavade13
-- College : Vishwakarma Institute of Technology, Pune
-------------------------------------------------------------------
+✨ FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ✅ Signup & Login with JWT Authentication
+ ✅ Role-based Dashboard (Admin / Teacher / Student)
+ ✅ Add / View / Search Books
+ ✅ Issue & Return Books
+ ✅ Fine System (₹10 per day late fee)
+ ✅ Password Hashing (salted std::hash)
+ ✅ Auto-creates users.txt & books.txt on first run
+ ✅ Sample books added automatically
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 HOW TO RUN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💻 C++ Console App:
+┌─────────────────────────────────────────┐
+│  g++ main.cpp -o lms_app               │
+│  ./lms_app        ← Linux / Mac        │
+│  lms_app.exe      ← Windows            │
+└─────────────────────────────────────────┘
+
+📱 Flutter App:
+┌─────────────────────────────────────────┐
+│  cd flutter_application_1              │
+│  flutter pub get                       │
+│  flutter run                           │
+└─────────────────────────────────────────┘
+
+🐍 Flask Backend:
+┌─────────────────────────────────────────┐
+│  cd backend                            │
+│  pip install -r requirements.txt       │
+│  python app.py                         │
+└─────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🔐 Portable salted std::hash used for password hashing
+ 📂 Keep users.txt & books.txt with executable always
+ 🔒 For stronger hashing use OpenSSL SHA-256
+ 🧩 For multi-file split (user.h/cpp, library.h/cpp) ask!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔══════════════════════════════════════════════════════════════╗
+║  ⭐ If you like this project, give it a star on GitHub!     ║
+║       https://github.com/ramgavade13/LMS_APP-               ║
+╚══════════════════════════════════════════════════════════════╝
